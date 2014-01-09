@@ -84,9 +84,9 @@ Introduction to news applications
 
 Homework:
 
-Read:[A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/) by Adrian Holovaty
-Read: [A dao of web design](http://alistapart.com/article/dao) by John Allsopp
-Read: [Code, the newsroom and self doubt](http://veltman.tumblr.com/post/56132893301/code-the-newsroom-and-self-doubt) by Noah Veltman
+* Read: [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/) by Adrian Holovaty
+* Read: [A dao of web design](http://alistapart.com/article/dao) by John Allsopp
+* Read: [Code, the newsroom and self doubt](http://veltman.tumblr.com/post/56132893301/code-the-newsroom-and-self-doubt) by Noah Veltman
 
 Reaction Paper: In 500 words, give me your take on this. Look at the news you read. Could it be structured? What could you do with that structure? What do your answers say about you? Or where they come from? What medium they’re rooted in? And do you think you can do this? Due before next class.
 
@@ -96,8 +96,8 @@ How the internet works — and how it’s different
 
 Homework:
 
-Watch: [Don’t Fear The Internet parts 1-3](http://www.dontfeartheinternet.com)
-Read: [20 Things I Learned About Browsers and the Web 1, 4-5, 7, 16](http://www.20thingsilearned.com/en-US)
+* Watch: [Don’t Fear The Internet parts 1-3](http://www.dontfeartheinternet.com)
+* Read: [20 Things I Learned About Browsers and the Web 1, 4-5, 7, 16](http://www.20thingsilearned.com/en-US)
 
 **Jan. 21, 2014**
 
@@ -105,8 +105,8 @@ How to make things on the internet, Part 1: Text editors, IDE’s and you
 
 Homework:
 
-Read: [A Beginner's Guide to HTML and CSS 1 - 2](http://learn.shayhowe.com/html-css/)
-Do: [Codecademy: Web Fundamentals 1 - 6](http://www.codecademy.com/tracks/web)
+* Read: [A Beginner's Guide to HTML and CSS 1 - 2](http://learn.shayhowe.com/html-css/)
+* Do: [Codecademy: Web Fundamentals 1 - 6](http://www.codecademy.com/tracks/web)
 
 **Jan. 23, 2014**
 
@@ -114,9 +114,9 @@ How to make things on the internet, Part 2: File structures and version control
 
 Homework:
 
-Read: [A Beginner's Guide to HTML and CSS 3 - 7](http://learn.shayhowe.com/html-css/)
-Do: [Codecademy: Web Fundamentals 7 - 12](http://www.codecademy.com/tracks/web)
-Do: Commit your resume from #12 to your Github repository.
+* Read: [A Beginner's Guide to HTML and CSS 3 - 7](http://learn.shayhowe.com/html-css/)
+* Do: [Codecademy: Web Fundamentals 7 - 12](http://www.codecademy.com/tracks/web)
+* Do: Commit your resume from #12 to your Github repository.
 
 **Jan. 28, 2014**
 
@@ -124,7 +124,7 @@ How to make things on the internet, Part 3: How to Google
 
 Homework:
 
-Do: [Dash Project 1](https://dash.generalassemb.ly)
+* Do: [Dash Project 1](https://dash.generalassemb.ly)
 
 **Jan. 30, 2014**
 
@@ -142,9 +142,9 @@ An introduction to data journalism
 
 Homework: 
 
-Read: [Want to build a data journalism team? You’ll need these three people](http://knightlab.northwestern.edu/2013/06/28/want-to-build-a-data-journalism-team-youll-need-these-three-people/)
-Read: [The Data Journalism Handbook, Introduction](http://datajournalismhandbook.org/1.0/en/introduction.html)
-Read: [The Canvas for CAR](http://thescoop.org/thefix/the-canvas-for-car/)
+* Read: [Want to build a data journalism team? You’ll need these three people](http://knightlab.northwestern.edu/2013/06/28/want-to-build-a-data-journalism-team-youll-need-these-three-people/)
+* Read: [The Data Journalism Handbook, Introduction](http://datajournalismhandbook.org/1.0/en/introduction.html)
+* Read: [The Canvas for CAR](http://thescoop.org/thefix/the-canvas-for-car/)
 
 **Feb. 6, 2014**
 
@@ -160,7 +160,7 @@ An introduction to analysis: Spreadsheets, data and the basics.
 
 Homework: 
 
-Do: [JS for Cats](http://jsforcats.com)
+* Do: [JS for Cats](http://jsforcats.com)
 
 **Feb. 13, 2014**
 
@@ -168,8 +168,8 @@ More hands on with spreadsheets
 
 Homework:
 
-Do: [Codecademy: JavaScript 1-4](http://www.codecademy.com/tracks/javascript)
-Do: [Try jQuery 1-6](http://try.jquery.com)
+* Do: [Codecademy: JavaScript 1-4](http://www.codecademy.com/tracks/javascript)
+* Do: [Try jQuery 1-6](http://try.jquery.com)
 
 **Feb. 18, 2014**
 
@@ -189,8 +189,8 @@ The ethics of news apps
 
 Homework: 
 
-Read: [Handling Data About Race and Ethnicity](http://source.opennews.org/en-US/learning/handling-data-about-race-and-ethnicity/)
-Read: [Public Info Doesn’t Always Want To Be Free](http://source.opennews.org/en-US/learning/public-info-doesnt-always-want-be-free/)
+* Read: [Handling Data About Race and Ethnicity](http://source.opennews.org/en-US/learning/handling-data-about-race-and-ethnicity/)
+* Read: [Public Info Doesn’t Always Want To Be Free](http://source.opennews.org/en-US/learning/public-info-doesnt-always-want-be-free/)
 
 **Feb. 27, 2014**
 
