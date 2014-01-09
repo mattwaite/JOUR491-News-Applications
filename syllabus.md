@@ -1,4 +1,4 @@
-#JOUR 491 Developing New Media
+#JOUR 491 Developing New Media#
 **Spring 2014**  
 **T/Th 3:30 p.m. - 4:50 p.m.**  
 **114 Andersen Hall**  
@@ -30,10 +30,9 @@ All reading materials will be online, freely available and assigned week by week
 
 Congrats, you’re all hired. We’re on the job now. We all have an A. Our job is to keep it. You keep it by:
 
-Showing up. It’s mandatory and not only that, it’s a really good idea. We’re going to be moving very, very fast. Miss a class, get left behind.
- 
-Participating. One third of the class is going to be discussion. I want you to argue. I want you to tell me I’m full of it. Debate forms better ideas. Non-participation will be graded poorly.
-Doing. We’re going to build a project. Getting your hands dirty reflects well on you. Avoiding work does not.
+* Showing up. It’s mandatory and not only that, it’s a really good idea. We’re going to be moving very, very fast. Miss a class, get left behind.
+* Participating. A lot of this class is going to be discussion. I want you to argue. I want you to tell me I’m full of it. Debate forms better ideas. Non-participation will be graded poorly.
+* Doing. We’re going to build a project. You will have tasks assigned to you that others will be relying on. Getting your hands dirty reflects well on you. Avoiding work does not.
 
 Do your work, hit your deadlines, mix it up in class and you’re probably going to get an A. Simple.
 
@@ -66,11 +65,11 @@ Anything and everything you include in your papers that comes from another sourc
 
 Plagiarism consists of using phrases, sentences or paragraphs from any source and republishing them without alteration or attribution. The sources include, but are not limited to, books, magazines, newspapers, television or radio reports, Web sites and other students’ papers.
 
-**Students with disabilities: **
+**Students with disabilities:**
 
 Students with disabilities are encouraged to contact the instructor for a confidential discussion of their individual needs for academic accommodation. It is the policy of the University of Nebraska-Lincoln to provide flexible and individualized accommodation to students with documented disabilities that may affect their ability to fully participate in course activities or meet course requirements. To receive accommodation services, students must be registered with the Services for Students with Disabilities (SSD) office, 132 Canfield Administration, 472-3787 voice or TTY.
 
-**Diversity: **
+**Diversity:**
 
 The College of Journalism and Mass Communications values diversity, in the broadest sense of the word – gender, age, race, ethnicity, nationality, income, religion, education, geographic, physical and mental ability or disability, sexual orientation. We recognize that understanding and incorporating diversity in the curriculum enables us to prepare our students for careers as professional communicators in a global society. As communicators, we understand that journalism, advertising and other forms of strategic communication must reflect society in order to be effective and reliable. We fail as journalists if we are not accurate in our written, spoken and visual reports; including diverse voices and perspectives improves our accuracy and truthfulness. In advertising, we cannot succeed if we do not understand the value of or know how to create advertising that reflects a diverse society and, thus, appeals to broader audiences.
 
@@ -85,9 +84,9 @@ Introduction to news applications
 
 Homework:
 
-Read: A fundamental way newspaper sites need to change by Adrian Holovaty
-Read: A dao of web design by John Allsopp
-Read: Code, the newsroom and self doubt by Noah Veltman
+Read:[A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/) by Adrian Holovaty
+Read: [A dao of web design](http://alistapart.com/article/dao) by John Allsopp
+Read: [Code, the newsroom and self doubt](http://veltman.tumblr.com/post/56132893301/code-the-newsroom-and-self-doubt) by Noah Veltman
 
 Reaction Paper: In 500 words, give me your take on this. Look at the news you read. Could it be structured? What could you do with that structure? What do your answers say about you? Or where they come from? What medium they’re rooted in? And do you think you can do this? Due before next class.
 
@@ -97,17 +96,17 @@ How the internet works — and how it’s different
 
 Homework:
 
-Watch Don’t Fear The Internet parts 1-3
-Read 20 Things I Learned About Browsers and the Web 1, 4-5, 7, 16
+Watch: [Don’t Fear The Internet parts 1-3](http://www.dontfeartheinternet.com)
+Read: [20 Things I Learned About Browsers and the Web 1, 4-5, 7, 16](http://www.20thingsilearned.com/en-US)
 
 **Jan. 21, 2014**
 
-How to make things on the internet, Part 1: Text editors and IDE’s
+How to make things on the internet, Part 1: Text editors, IDE’s and you
 
 Homework:
 
-Read: A Beginner's Guide to HTML and CSS 1 - 2
-Do: Codecademy: Web Fundamentals 1 - 6
+Read: [A Beginner's Guide to HTML and CSS 1 - 2](http://learn.shayhowe.com/html-css/)
+Do: [Codecademy: Web Fundamentals 1 - 6](http://www.codecademy.com/tracks/web)
 
 **Jan. 23, 2014**
 
@@ -115,8 +114,8 @@ How to make things on the internet, Part 2: File structures and version control
 
 Homework:
 
-Read: A Beginner's Guide to HTML and CSS 3 - 7
-Do: Codecademy: Web Fundamentals 7 - 12
+Read: [A Beginner's Guide to HTML and CSS 3 - 7](http://learn.shayhowe.com/html-css/)
+Do: [Codecademy: Web Fundamentals 7 - 12](http://www.codecademy.com/tracks/web)
 Do: Commit your resume from #12 to your Github repository.
 
 **Jan. 28, 2014**
@@ -125,7 +124,7 @@ How to make things on the internet, Part 3: How to Google
 
 Homework:
 
-Do: Dash Project 1.
+Do: [Dash Project 1](https://dash.generalassemb.ly)
 
 **Jan. 30, 2014**
 
@@ -135,7 +134,7 @@ Homework: Build a personal website. You have until Feb. 4.
 
 Requirements: It must be three pages — index, resume and surprise me with something. The design must be consistent across all three pages — i.e. same navigation, fonts, colors, etc. 
 
-Host it on Github. 
+[Host it on Github](http://pages.github.com) 
 
 **Feb. 4, 2014**
 
@@ -143,9 +142,9 @@ An introduction to data journalism
 
 Homework: 
 
-Read: Want to build a data journalism team? You’ll need these three people.
-Read: The Data Journalism Handbook, Introduction. 
-Read: The Canvas for CAR
+Read: [Want to build a data journalism team? You’ll need these three people](http://knightlab.northwestern.edu/2013/06/28/want-to-build-a-data-journalism-team-youll-need-these-three-people/)
+Read: [The Data Journalism Handbook, Introduction](http://datajournalismhandbook.org/1.0/en/introduction.html)
+Read: [The Canvas for CAR](http://thescoop.org/thefix/the-canvas-for-car/)
 
 **Feb. 6, 2014**
 
@@ -161,7 +160,7 @@ An introduction to analysis: Spreadsheets, data and the basics.
 
 Homework: 
 
-Do: JS for Cats.
+Do: [JS for Cats](http://jsforcats.com)
 
 **Feb. 13, 2014**
 
@@ -169,8 +168,8 @@ More hands on with spreadsheets
 
 Homework:
 
-Do: Codecademy: JavaScript 1-4
-Do: Try jQuery 1-6
+Do: [Codecademy: JavaScript 1-4](http://www.codecademy.com/tracks/javascript)
+Do: [Try jQuery 1-6](http://try.jquery.com)
 
 **Feb. 18, 2014**
 
@@ -190,8 +189,8 @@ The ethics of news apps
 
 Homework: 
 
-Read: Handling Data About Race and Ethnicity
-Read: Public Info Doesn’t Always Want To Be Free
+Read: [Handling Data About Race and Ethnicity](http://source.opennews.org/en-US/learning/handling-data-about-race-and-ethnicity/)
+Read: [Public Info Doesn’t Always Want To Be Free](http://source.opennews.org/en-US/learning/public-info-doesnt-always-want-be-free/)
 
 **Feb. 27, 2014**
 
@@ -219,7 +218,7 @@ Web frameworks 3: Views and templates.
 
 **March 20, 2014**
 
-Introducing the final project
+Introducing the final project: Data apps for student media
 
 Homework:
 
