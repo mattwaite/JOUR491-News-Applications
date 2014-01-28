@@ -11,3 +11,4 @@ One of the first hurdles to get over when you start programming on a Mac or a Li
 |To create a file|touch [filename]|
 |To become a superuser (temporarily)|sudo [command]|
 |To change permissions on a file|sudo chmod [number like 777 or 755]|
+|To find out where you are in the system|pwd|

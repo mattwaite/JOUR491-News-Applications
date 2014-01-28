@@ -1,4 +1,4 @@
-#JOUR 491 Developing New Media#
+#JOUR 491 News Applications#
 **Spring 2014**  
 **T/Th 3:30 p.m. - 4:50 p.m.**  
 **114 Andersen Hall**  
