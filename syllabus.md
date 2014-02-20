@@ -175,13 +175,13 @@ Homework:
 
 Your first news app, part 1.
 
-Using Tabletop.js, make a single page news app. Data TBA. 
+Using Tarbell, make a single page news app. Data TBA. 
 
 **Feb. 20, 2014**
 
 Your first news app, part 2.
 
-Finish single page news app. Commit to Github. 
+Your second news app is due before the next class. Commit to Github. Submit the URL to Blackboard.
 
 **Feb. 25, 2014**
 
