@@ -13,7 +13,11 @@ import sys
 #from unlcrime import settings
 #setup_environ(settings)
 
-from BeautifulSoup import BeautifulSoup
+try:
+    from BeautifulSoup import BeautifulSoup
+except:
+    from bs4 import BeautifulSoup
+    
 import urllib2, string, datetime, time, re
 #from django.template.defaultfilters import slugify, urlize
 
