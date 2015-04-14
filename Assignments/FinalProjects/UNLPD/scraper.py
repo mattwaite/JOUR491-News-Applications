@@ -24,14 +24,18 @@ import urllib, urllib2, string, datetime, time, re
 #from unlcrime.incidents.models import Clearance, IncidentType, Incident
 #from unlcrime.locations.models import Location, LocationType
 
-html = urllib2.urlopen("https://scsapps.unl.edu/policereports/default.aspx")
+html = urllib2.urlopen("http://cjis.lincoln.ne.gov/~lpd/cfstoday.htm")
 
 soup = BeautifulSoup(html)
 
 
 tables = soup.findAll('table')
 
-reports_container = tables[3]
+reports_container = tables[1]
+
+print reports_container
+
+"""
 
 rows = reports_container.findAll('tr')
 
@@ -67,3 +71,4 @@ for i in incidents:
     clr, clrcreated = Clearance.objects.get_or_create(clearance_type=i[7], clearance_type_slug=slugify(i[7]))
     inc, inccreated = Incident.objects.get_or_create(incident_id=i[0], incident_date=incdate, incident_location=incloc, incident_type=inctype, stolen_amount=i[5], damaged_amount=i[6], clearance=clr, narrative=i[8])
     print inc
+"""
