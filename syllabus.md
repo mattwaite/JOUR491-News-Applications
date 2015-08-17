@@ -1,13 +1,13 @@
 #JOUR 491 News Applications#
-__Spring 2014__  
-__T/Th 3:30 p.m. - 4:50 p.m.__  
-__114 Andersen Hall__  
+__Fall 2015__  
+__T/Th 2:30 p.m. - 3:50 p.m.__  
+__Brace Labs 317__  
 
 Matt Waite, instructor
 Email: mwaite3@unl.edu   
 Twitter: @mattwaite   
 Phones: (402) 802-5202 cell, (402) 472-5840 office   
-Office: 247 Andersen   
+Office: 244 Andersen   
 
 __Course description:__
 
@@ -17,7 +17,7 @@ __Course goal:__
 
 * Be introduced to the concepts of news applications and their various forms online today.
 * Master basic Python coding, computational thinking and algorithmic approaches to problem solving.
-* Be familiar with basic data structures, such as databases, JSON and XML. 
+* Be familiar with basic data structures common to journalism, such as databases, CSV and JSON. 
 * Publish news applications using different methods, including single page apps and dynamic, framework developed apps.
 * Explore the intersection of data and narrative, story and structure.
 
@@ -96,12 +96,12 @@ __Diversity:__
 
 The College of Journalism and Mass Communications values diversity, in the broadest sense of the word – gender, age, race, ethnicity, nationality, income, religion, education, geographic, physical and mental ability or disability, sexual orientation. We recognize that understanding and incorporating diversity in the curriculum enables us to prepare our students for careers as professional communicators in a global society. As communicators, we understand that journalism, advertising and other forms of strategic communication must reflect society in order to be effective and reliable. We fail as journalists if we are not accurate in our written, spoken and visual reports; including diverse voices and perspectives improves our accuracy and truthfulness. In advertising, we cannot succeed if we do not understand the value of or know how to create advertising that reflects a diverse society and, thus, appeals to broader audiences.
 
-##Class Schedule:##
+###Class Schedule:###
 
 A word of warning: This class is pretty fluid. I will move things up and back, depending on how well you’re getting things. If things change, I will update the syllabus on Blackboard and I will update the class blog.
 
 
-__Jan. 14, 2014__
+__Aug. 25, 2015__
 
 Introduction to news applications
 
@@ -113,7 +113,7 @@ Homework:
 
 Reaction Paper: In 500 words, give me your take on this. Look at the news you read. Could it be structured? What could you do with that structure? What do your answers say about you? Or where they come from? What medium they’re rooted in? And do you think you can do this? Due before next class.
 
-__Jan. 16, 2014__
+__Aug. 27, 2015__
 
 How the internet works — and how it’s different
 
@@ -121,8 +121,9 @@ Homework:
 
 * Watch: [Don’t Fear The Internet parts 1-3](http://www.dontfeartheinternet.com)
 * Read: [20 Things I Learned About Browsers and the Web 1, 4-5, 7, 16](http://www.20thingsilearned.com/en-US)
+* Read: [What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/).
 
-__Jan. 21, 2014__
+__Sept. 1, 2015__
 
 How to make things on the internet, Part 1: Text editors, IDE’s and you
 
@@ -131,7 +132,7 @@ Homework:
 * Read: [A Beginner's Guide to HTML and CSS 1 - 2](http://learn.shayhowe.com/html-css/)
 * Do: [Codecademy: Web Fundamentals 1 - 6](http://www.codecademy.com/tracks/web)
 
-__Jan. 23, 2014__
+__Sept. 3, 2015__
 
 How to make things on the internet, Part 2: File structures and version control
 
@@ -141,7 +142,7 @@ Homework:
 * Do: [Codecademy: Web Fundamentals 7 - 12](http://www.codecademy.com/tracks/web)
 * Do: Commit your resume from #12 to your Github repository.
 
-__Jan. 28, 2014__
+__Sept. 8, 2015__
 
 How to make things on the internet, Part 3: How to Google
 
@@ -149,7 +150,7 @@ Homework:
 
 * Do: [Dash Project 1](https://dash.generalassemb.ly)
 
-__Jan. 30, 2014__
+__Sept. 10, 2015__
 
 Guest speaker: Dan Sinker, Mozilla Foundation.
 
@@ -159,7 +160,7 @@ Requirements: It must be three pages — index, resume and surprise me with some
 
 [Host it on Github](http://pages.github.com) 
 
-__Feb. 4, 2014__
+__Sept. 15, 2015__
 
 An introduction to data journalism
 
@@ -169,15 +170,15 @@ Homework:
 * Read: [The Data Journalism Handbook, Introduction](http://datajournalismhandbook.org/1.0/en/introduction.html)
 * Read: [The Canvas for CAR](http://thescoop.org/thefix/the-canvas-for-car/)
 
-__Feb. 6, 2014__
+__Sept. 17, 2015__
 
-Guest speaker: Matt Wynn, Omaha World Herald
+Guest speaker: TBA
 
 Homework: 
 
-Reaction paper: In 500 words, what ideas emerge when you combine Wynn, the Dao of Web Design from earlier this semester with Willis’ Canvas for CAR? What happens when journalism isn’t just words and pictures?
+Reaction paper: TBA
 
-__Feb. 11, 2014__
+__Sept. 22, 2015__
 
 An introduction to analysis: Spreadsheets, data and the basics.
 
@@ -185,7 +186,7 @@ Homework:
 
 * Do: [JS for Cats](http://jsforcats.com)
 
-__Feb. 13, 2014__
+__Sept. 24, 2015__
 
 More hands on with spreadsheets
 
@@ -194,19 +195,23 @@ Homework:
 * Do: [Codecademy: JavaScript 1-4](http://www.codecademy.com/tracks/javascript)
 * Do: [Try jQuery 1-6](http://try.jquery.com)
 
-__Feb. 18, 2014__
+__Sept. 29, 2015__
 
 Your first news app, part 1.
 
-Using Tarbell, make a single page news app. Data TBA. 
+Homework:
 
-__Feb. 20, 2014__
+* Do: Using Tarbell, make a single page news app. Data TBA. Due by next class. Commit to Github. Submit the URL to Blackboard.
+
+__Oct. 1, 2015__
 
 Your first news app, part 2.
 
-Your second news app is due before the next class. Commit to Github. Submit the URL to Blackboard.
+Homework:
 
-__Feb. 25, 2014__
+* Do: Your second news app is due before the next class. Commit to Github. Submit the URL to Blackboard.
+
+__Oct. 6, 2015__
 
 The ethics of news apps
 
@@ -215,31 +220,51 @@ Homework:
 * Read: [Handling Data About Race and Ethnicity](http://source.opennews.org/en-US/learning/handling-data-about-race-and-ethnicity/)
 * Read: [Public Info Doesn’t Always Want To Be Free](http://source.opennews.org/en-US/learning/public-info-doesnt-always-want-be-free/)
 
-__Feb. 27, 2014__
+__Oct. 8, 2015__
 
-Guest speaker TBA. Class to be held on Google Hangout.
+Scraping with Python I
 
-__March 4, 2014__
+Homework: 
 
-Your second news app, using Tarbell. Data TBA
+* Do: Scraping homework TBA
 
-__March 6, 2014__
+__Oct. 13, 2015__
 
-Your second news app, using Tarbell. Data TBA.
+Scraping with Python II
 
-__March 11, 2014__
+* Do: Scraping homework TBA
+
+__Oct. 15, 2015__
+
+Scraping with Python III
+
+* Do: Scraping homework TBA
+
+__Oct. 20, 2015__
+
+Fall Break
+
+__Oct. 22, 2015__
+
+No class
+
+__Oct. 27, 2015__
 
 Web frameworks 1: Introducing web frameworks
 
-__March 13, 2014__
+__Oct. 29, 2015__
 
 Web frameworks 2: Models
 
-__March 18, 2014__
+__Nov. 3, 2015__
 
 Web frameworks 3: Views and templates.
 
-__March 20, 2014__
+__Nov. 5, 2015__
+
+Web frameworks 4: Baking to static HTML for easy publication.
+
+__Nov. 10, 2015__
 
 Introducing the final project: Data apps for student media
 
@@ -247,50 +272,39 @@ Homework:
 
 Start sketching ideas, thoughts, features, etc. 
 
-__March 25, 2014__
+__Nov. 12, 2015__
 
-Spring break
+How to scrum, what will be expected of you from now on. 
 
-__March 27, 2014__
-
-Spring break
-
-__April 1, 2014__
+__Nov. 17, 2015__
 
 Project scrum: Progress, assignments  
 
-__April 3, 2014__
+__Nov. 19, 2015__
 
 Project work
 
-__April 8, 2014__
+__Nov. 24, 2015__
 
 Project scrum: Progress, assignments  
 
-__April 10, 2014__
+__Nov. 26, 2015__
+
+Thanksgiving
+
+__Dec. 1, 2015__
+
+Project scrum: Progress, assignments  
+
+__Dec. 3, 2015__
 
 Project work
 
-__April 15, 2014__
+__Dec. 8, 2015__
 
 Project scrum: Progress, assignments  
 
-__April 17, 2014__
+__Dec. 10, 2015__
 
-Project work
+Project presentations
 
-__April 22, 2014__
-
-Project scrum: Progress, assignments  
-
-__April 24, 2014__
-
-Project work
-
-__April 29, 2014__
-
-Project scrum: Progress, assignments  
-
-__May 1, 2014__
-
-Doing: Final project presentations
