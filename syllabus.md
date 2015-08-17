@@ -152,9 +152,9 @@ Homework:
 
 __Sept. 10, 2015__
 
-Guest speaker: Dan Sinker, Mozilla Foundation.
+Guest speaker: TBA
 
-Homework: Build a personal website. You have until Feb. 4. 
+Homework: Build a personal website. You have until next class. 
 
 Requirements: It must be three pages — index, resume and surprise me with something. The design must be consistent across all three pages — i.e. same navigation, fonts, colors, etc. 
 
