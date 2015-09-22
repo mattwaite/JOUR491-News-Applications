@@ -172,25 +172,20 @@ Homework:
 
 __Sept. 17, 2015__
 
-Guest speaker: TBA
-
-Homework: 
-
-Reaction paper: TBA
-
-__Sept. 22, 2015__
-
 An introduction to analysis: Spreadsheets, data and the basics.
 
 Homework: 
 
+__Sept. 22, 2015__
+
+Tarbell installation party
+
 * Do: [JS for Cats](http://jsforcats.com)
+* Do: [Tarbell tutorial](http://tarbell.readthedocs.org/en/latest/tutorial.html)
 
 __Sept. 24, 2015__
 
-More hands on with spreadsheets
-
-Homework:
+No class today.
 
 * Do: [Codecademy: JavaScript 1-4](http://www.codecademy.com/tracks/javascript)
 * Do: [Try jQuery 1-6](http://try.jquery.com)
