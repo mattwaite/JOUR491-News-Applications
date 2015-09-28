@@ -1,18 +1,19 @@
-#Your first news app: The Harv-O-Tron#
+#Your first news app: UNL's cost#
 
-**Background**: Harvey Perlman, the chancellor of the University of Nebraska-Lincoln, has pledged to increase the enrollment at the University of Nebraska-Lincoln to 30,000 students. The university, going back to the 1960s, has never had an enrollment higher than 26,000. 
+**Background**
 
-Using data from the UNL Office of Institutional Planning and Research, build a news app that shows where UNL is on this goal and what the trends have been the last few years.
+There's a lot of information out there about how much it costs to attend UNL. But how expensive is it, really? And is it a good deal? Using data and visual narrative tools, how might you tell this story? How would you explain to a news audience where UNL fits in the college cost puzzle? You'll want to use the data included in this repository (or hosted on Blackboard) and you should make use of ProPublica's [Debt by Degrees](https://projects.propublica.org/colleges/), [UNL's page](https://projects.propublica.org/colleges/schools/university-of-nebraska-lincoln), [Other Nebraska Colleges and Universities](https://projects.propublica.org/colleges/states/NE).
 
 **Requirements**
 
 1. It must look like a professional news application. 
-2. It must include actual journalism about Harv's goals. 
-3. It must include data.
-4. It must visualize that data somehow. 
+2. It must include actual journalism. Read about college costs. Read about cost at UNL. Use it in the news app. 
+3. It must include data -- At a minimum: one data table, one graphic, one data element using type.
+4. It must be hosted on your GitHub.io account. 
 
 **Grading notes**
 
 1. You'll at least in part be graded on the effort you put in. If you take the data, slap it on a page, dump a screenshot of an Excel chart in there and toss some text in, you've at best earned a C. 
-2. Visualization tools you could use, in order of difficulty: Chartbuilder, Flot, D3. If you've never used D3 before and are struggling with HTML/CSS/Javascript, don't even try it. If you're handling Javascript and HTML okay, try Flot. 
-3. Think about what you'd want to see in a site. Photos? Video of Harvey making the goal? Links to documents or websites? Use them.
+2. A handy data visualization tool? [Chartbuilder](https://quartz.github.io/Chartbuilder/)
+3. Think about what you'd want to see in a site. Photos? Links to documents or websites? Use them.
+4. Having trouble? Remember Slack.
