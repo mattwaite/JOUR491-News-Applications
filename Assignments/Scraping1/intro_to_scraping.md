@@ -1,13 +1,15 @@
-#Your first steps with Python#
+#Intro to scraping, part 1: The basics#
 
-We're going to take our first steps into programming today with some of the basics: variables, lists, loops, conditionals and functions.
+One of the most useful things you can do with a computer and programming as a journalist is scrape data from a website. Often, governments make data available, but not accessible. It's in a searchable database, in some web form, or hidden under a blizzard of links. A computer completes repetitive tasks very well. Let's make a computer do it. 
 
 
 ###First things first###
 
-We need an environment. Fortunately for us, Python runs in the browser quite well, so long as we only need the standard library. To avoid the need to install Python on everyone's computer and all the fun that brings, we'll stick to the standard library and we'll use a browser based Python editor. 
+Open a a terminal in your virtual machine. Type python and hit enter. Congrats, you're now running the Python language interpreter and can type python directly into the terminal.
 
-####[Go here](http://www.tutorialspoint.com/execute_python_online.php)####
+Mac users: You can do the same thing in your Mac side terminal.
+
+PC users: You can install Python if you wish, but it's a bit of a hassle depending on your windows install.
 
 ###Hello World###
 
@@ -17,7 +19,7 @@ type this
 
 `print "Hello world"`
 
-Now press the execute button.
+Now press enter.
 
 Wow. 
 
@@ -50,11 +52,6 @@ We can go on for days like this. But what if we want to play Mad Libs? Remember 
 	print "%s %s %s over the %s %s, just like %s dreamed." % (name, adverb, verb, adjective, noun, pronoun)
 
 This method uses substitition to replace the placeholder (%s) with the corresponding item from the list. Note: They must match.
-
----
-*Write your own Mad Lib.*
-
----
 
 The types of variables we can use are:
 
@@ -154,6 +151,39 @@ So let's make a function:
     	
 In this example, there's two new things: first we imported a library called random so we can get a random choice from a list. We defined a function called hookupizer, which creates a variable from a random choice from the list of people. And then the rest you have done before -- loop through a list, print out a result. 
 
+###Putting it together###
+
+Let's do something useful. Let's use an external library to loop through a data file and do something with the data as we find it. 
+
+Let's take a dataset of temperatures for every day in Lincoln so far this year and determine if the temperature that day was cold, okay or hot. 
+
+First, decompose the problem. What steps do we need to accomplish? First, we need some data.
+
+    import csv
+    
+    data = csv.reader(open("weather.csv", "rU"), dialect=csv.excel)
+    
+To see what you've got, do this:
+
+    for row in data:
+        print row
+        
+Note something: The first row is the headers. We don't want those. To skip past them, you just do this.
+
+    data.next()
+    
+Now, let's do some conditional logic.
+
+    for row in data:
+        if row[2] < 30:
+            temp = "Cold"
+        elif row[2] >=30 or row[2] <= 80:
+            temp = "It's alright."
+        else:
+            temp = "It's hot."    
+    
+Hmm. This isn't working. In two ways. Any guesses why?
+
 ###Assignment###
 
-I want you to write a simple Python script where the computer plays Rock, Paper Scissors against itself using random choices. You will need to define a function that makes a choice. You will need to define a function that determines a winner. And you'll need to play the game. Bonus points: How would you set it up to determine a winner of two out of three?
+Write a python script that will loop through a CSV of county population estimates and calculate a percent change for each one. For each one, print to the screen "[County], [State] changed [change] percent." It will print this out more than 3,100 times, one for each county. Due Tuesday. 
