@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+		  
+{% block content %}
+        <h1>{{ state }}</h1>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>2010</th>
+              <th>2011</th>
+              <th>2012</th>
+              <th>2013</th>
+		   <th>2010-2013 change</th>
+		   <th>Trend</th>
+            </tr>
+          </thead>
+          <tbody>
+		{% for row in counties %}   
+             <tr>
+               <td><a href="{{ row.get_absolute_url }}">{{ row.county_name }}, {{ row.state }}</a></td>
+               <td>{{ row.pop2010 }}</td>
+               <td>{{ row.pop2011 }}</td>
+               <td>{{ row.pop2012 }}</td>
+               <td>{{ row.pop2013 }}</td>
+               <td>{{ row.change|floatformat }}%</td>
+			   <td>{% if row.change > 0 %}<img src="/static/images/up.png" width=25 />{% elif row.change < 0 %}<img src="/static/images/down.png" width=25 />{% else %}{% endif %}
+             </tr>
+		{% endfor %}
+            </tbody>
+          </table>
+        </div>
+{% endblock %}
