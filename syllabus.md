@@ -1,13 +1,13 @@
-#JOUR 491 News Applications#
-__Fall 2015__  
-__T/Th 2:30 p.m. - 3:50 p.m.__  
-__Brace Labs 317__  
+#JOUR408 News Applications#
+__Spring 2017__  
+__T/Th 11:00 a.m. - 12:15 p.m.__  
+__ANDN 114__  
 
-Matt Waite, instructor
-Email: mwaite3@unl.edu   
-Twitter: @mattwaite   
-Phones: (402) 802-5202 cell, (402) 472-5840 office   
-Office: 244 Andersen   
+**Matt Waite, instructor**  
+**Email**: mwaite3@unl.edu   
+**Twitter**: @mattwaite   
+**Phones**: (402) 802-5202 cell, (402) 472-5840 office   
+**Office**: 244 Andersen   
 
 __Course description:__
 
@@ -31,6 +31,12 @@ All reading materials will be online, freely available and assigned week by week
 
 __Grading:__
 
+In this class, we're going to accomplish three projects, centered on solving a problem that news consumers might have using the web, data and journalism. The projects will be short burn, conception to launch, called sprints. The three project sprints will be. 
+
+* **Restoring trust in news**: If you could build a news website from the ground up to restore trust in news, what would it look like? More importantly, what do other people think would restore trust in news? Can you build that? Using a rapid site building tool called Tarbell, we're going to build experiments in news trust using Design Thinking to guide us. 
+* **Data-driven automated news**: Communities are making more of their data available in open formats. How could a news organization position itself as a dashboard for civic health? How could a news organization use data and the web to create news or context to news out of data streams that are automatically updated. Using a rapid development framework called Django, we're going to build a data-driven news website. **NOTE**: We will be working with other classes on this. *THERE WILL BE A REQUIRED COURSE MEETING OUTSIDE OF CLASS ON JANUARY 31*
+* **Voice assistants and news**: One area exploding into the marketplace are voice assistants like Amazon's Alexa and Google's Home. What place is there for local news on these devices? Is there a service news organizations can provide directly to their audiences either based on the product or outside of it? We're going to have some Google Home's and Amazon Echo's to experiment with and you are going to build voice services for those platforms with an eye toward local news.
+
 I use standard and basic grading scale.
 
 |Grade|Percentage|
@@ -51,8 +57,12 @@ I use standard and basic grading scale.
 
 However, your final letter grade will be weighted:
 |Assignment|Weight||----------|------|
-|Attendance/participation|10%||Reading quizzes|10%|
-|Tarbell assignment|20%||All other assignments|30%||Final project|30%|
+|Reading quizzes/minor assignments|10%|
+|News trust/tarbell assignment|30%||Data-driven automated news/Django assignment|30%||Voice assistants for local news assignment|30%|
+__Notes on participation:__ 
+
+I do not take attendance, but it's a small enough class that I'll notice when you're gone. Your attendance and participation will factor into your grade thusly: When the end of the semester comes around, I made decisions on rounding and reconsiderations based on participation and attendance. If you show up, participate in class and are a positive contribution to the class overall, I round, sometimes generously. If you skip classes, mess around on your laptop, sit in silence when partipation is needed, then your grade is your grade. Either way, you earned it.
+
 
 __Notes on attendance:__
 
@@ -96,16 +106,17 @@ __Diversity:__
 
 The College of Journalism and Mass Communications values diversity, in the broadest sense of the word – gender, age, race, ethnicity, nationality, income, religion, education, geographic, physical and mental ability or disability, sexual orientation. We recognize that understanding and incorporating diversity in the curriculum enables us to prepare our students for careers as professional communicators in a global society. As communicators, we understand that journalism, advertising and other forms of strategic communication must reflect society in order to be effective and reliable. We fail as journalists if we are not accurate in our written, spoken and visual reports; including diverse voices and perspectives improves our accuracy and truthfulness. In advertising, we cannot succeed if we do not understand the value of or know how to create advertising that reflects a diverse society and, thus, appeals to broader audiences.
 
-###Class Schedule:###
+##Class Schedule:##
 
-A word of warning: This class is pretty fluid. I will move things up and back, depending on how well you’re getting things. If things change, I will update the syllabus on Blackboard and I will update the class blog.
+A word of warning: This may change. I will move things up and back, depending on how well you’re getting things. If things change, I will update the syllabus on Canvas.
 
+### Week 1: Jan. 10-12
 
-__Aug. 25, 2015__
+**Tuesday:**  
 
-Introduction to news applications
+*In class:*  Introduction to news applications
 
-Homework:
+*Assignments:* 
 
 * Read: [A fundamental way newspaper sites need to change](http://www.holovaty.com/writing/fundamental-change/) by Adrian Holovaty
 * Read: [A dao of web design](http://alistapart.com/article/dao) by John Allsopp
@@ -113,193 +124,250 @@ Homework:
 
 Reaction Paper: In 500 words, give me your take on this. Look at the news you read. Could it be structured? What could you do with that structure? What do your answers say about you? Or where they come from? What medium they’re rooted in? And do you think you can do this? Due before next class.
 
-__Aug. 27, 2015__
+**Thursday:**
 
-How the internet works — and how it’s different
+*In class:* How code is journalism. 
 
-Homework:
+*Assignments:*  
 
 * Watch: [Don’t Fear The Internet parts 1-3](http://www.dontfeartheinternet.com)
-* Read: [20 Things I Learned About Browsers and the Web 1, 4-5, 7, 16](http://www.20thingsilearned.com/en-US)
+* Read: [20 Things I Learned About Browsers and the Web](http://www.20thingsilearned.com/en-US)
 * Read: [What is Code](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/).
 
-__Sept. 1, 2015__
+Reaction paper: In 200-300 words, how do you see journalism/communications melding with these ideas? How does news and information pair with the web? How does your understanding of news and communications match up to Ford's Clock with Benefits idea? What ideas are starting to rattle in your head?
 
-How to make things on the internet, Part 1: Text editors, IDE’s and you
 
-Homework:
+### Week 2: Jan. 17-19 
+
+**Tuesday:**  
+
+*In class:*  BEGIN SPRINT 1: Trust in news design thinking session.
+
+*Assignments:*  
+
+* Virtual environment install party. Instructions TBA. 
+* With your group, select your news trust idea. Write it out into a formal pitch. A form will be provided.
+
+IF YOU ARE RUSTY OR HAVE NO EXPERIENCE WITH HTML/CSS:
 
 * Read: [A Beginner's Guide to HTML and CSS 1 - 2](http://learn.shayhowe.com/html-css/)
 * Do: [Codecademy: Web Fundamentals 1 - 6](http://www.codecademy.com/tracks/web)
 
-__Sept. 3, 2015__
+**Thursday:** 
 
-How to make things on the internet, Part 2: File structures and version control
+*In class:*  SPRINT 1: Tarbell introduction
 
-Homework:
+*Assignments:*
+
+* Using Tarbell, create a single web page using the materials provided. Publish it to your personal Reclaim Host.
+* If you don't already have one, sign up for a Github account.
+
+IF YOU ARE RUSTY OR HAVE NO EXPERIENCE WITH HTML/CSS:
 
 * Read: [A Beginner's Guide to HTML and CSS 3 - 7](http://learn.shayhowe.com/html-css/)
 * Do: [Codecademy: Web Fundamentals 7 - 12](http://www.codecademy.com/tracks/web)
-* Do: Commit your resume from #12 to your Github repository.
 
-__Sept. 8, 2015__
 
-How to make things on the internet, Part 3: How to Google
+### Week 3: Jan. 24-26
 
-Homework:
+**Tuesday:**  
 
-* Do: [Dash Project 1](https://dash.generalassemb.ly)
+*In class:*  SPRINT 1: Version control, templates, your project.
 
-__Sept. 10, 2015__
+*Assignments:*  
 
-Guest speaker: TBA
+* Choose a project leader in class.
+* With your group, set up your project as a Github repository. The project leader should create the repository. The other members should fork that. Exchange code with pull requests. Submit your individual github repository URLs to Canvas.
+* In your groups, set out tasks for each person to accomplish within your project. Create each as an issue on the project leader's repository. Begin working on that problem.
 
-Homework: Build a personal website. You have until next class. 
+**Thursday:**
 
-Requirements: It must be three pages — index, resume and surprise me with something. The design must be consistent across all three pages — i.e. same navigation, fonts, colors, etc. 
+*In class:*  SPRINT 1: Guest speaker TBA, project scrum
 
-[Host it on Github](http://pages.github.com) 
+*Assignments:* 
 
-__Sept. 15, 2015__
+* Continue to work on your issues on your project. It is due in one week.
 
-An introduction to data journalism
+### Week 4: Jan. 31-Feb. 2
 
-Homework: 
+**Tuesday:**  
 
-* Read: [Want to build a data journalism team? You’ll need these three people](http://knightlab.northwestern.edu/2013/06/28/want-to-build-a-data-journalism-team-youll-need-these-three-people/)
-* Read: [The Data Journalism Handbook, Introduction](http://datajournalismhandbook.org/1.0/en/introduction.html)
-* Read: [The Canvas for CAR](http://thescoop.org/thefix/the-canvas-for-car/)
+*In class:*  SPRINT 1: Finishing touches.
 
-__Sept. 17, 2015__
+*Assignments:* 
 
-An introduction to analysis: Spreadsheets, data and the basics.
+* Finish your project. Prepare a presentation that will cover the problem you set out to tackle, what you learned from your design thinking exercise, what you did to meet the users needs
 
-Homework: 
+* TUESDAY NIGHT: SPRINT 2 DESIGN JAM. In the new social media lab space, we will meet with the other classes involved in the SPRINT 2 project. THIS IS A REQUIRED MEETING. DETAILS TBA.
 
-__Sept. 22, 2015__
+**Thursday:**
 
-Tarbell installation party
+*In class:*  SPRINT 1 presentations
 
-* Do: [JS for Cats](http://jsforcats.com)
-* Do: [Tarbell tutorial](http://tarbell.readthedocs.org/en/latest/tutorial.html)
+*Assignments:*  
 
-__Sept. 24, 2015__
+### Week 5: Feb. 7-9
 
-No class today.
+**Tuesday:**  
 
-* Do: [Codecademy: JavaScript 1-4](http://www.codecademy.com/tracks/javascript)
-* Do: [Try jQuery 1-6](http://try.jquery.com)
+*In class:*  SPRINT 2.1 models, views, urls
 
-__Sept. 29, 2015__
+*Assignments:*  TBA
 
-Your first news app, part 1.
+**Thursday:**
 
-Homework:
+*In class:*   SPRINT 2.1 urls, views and templates
+ 
+*Assignments:*  TBA
 
-* Do: Using Tarbell, make a single page news app. Data TBA. Due by next class. Commit to Github. Submit the URL to Blackboard.
+### Week 6: Feb. 14-16
 
-__Oct. 1, 2015__
+**Tuesday:**  
 
-Your first news app, part 2.
+*In class:*  SPRINT 2.2 Django mini project
+  
+*Assignments:*  TBA
 
-Homework:
+**Thursday:**
 
-* Do: Your second news app is due before the next class. Commit to Github. Submit the URL to Blackboard.
+*In class:*  SPRINT 2.2 Django mini project
 
-__Oct. 6, 2015__
+*Assignments:* TBA
 
-The ethics of news apps
+### Week 7: Feb. 21-23
 
-Homework: 
+**Tuesday:**  
 
-* Read: [Handling Data About Race and Ethnicity](http://source.opennews.org/en-US/learning/handling-data-about-race-and-ethnicity/)
-* Read: [Public Info Doesn’t Always Want To Be Free](http://source.opennews.org/en-US/learning/public-info-doesnt-always-want-be-free/)
+*In class:* SPRINT 2.3 Data site work
 
-__Oct. 8, 2015__
+*Assignments:* TBA
 
-Scraping with Python I
+**Thursday:**
 
-Homework: 
+*In class:*  SPRINT 2.3 Data site work
 
-* Do: Scraping homework TBA
+*Assignments:*  TBA
 
-__Oct. 13, 2015__
+### Week 8: Feb. 28-March 2
 
-Scraping with Python II
+**Tuesday:**  
 
-* Do: Scraping homework TBA
+*In class:*  SPRINT 2.3 Data site work 
 
-__Oct. 15, 2015__
+*Assignments:*  TBA
 
-Scraping with Python III
+**Thursday:**
 
-* Do: Scraping homework TBA
+*In class:*  SPRINT 2.3 Data site work
 
-__Oct. 20, 2015__
+*Assignments:* TBA 
 
-Fall Break
+### Week 9: March 7-9
 
-__Oct. 22, 2015__
+**Tuesday:**  
 
-No class
+*In class:* SPRINT 2.3 Data site work
 
-__Oct. 27, 2015__
+*Assignments:* TBA
 
-Web frameworks 1: Introducing web frameworks
+**Thursday:**
 
-__Oct. 29, 2015__
+*In class:*  SPRINT 2.3 Data site work
 
-Web frameworks 2: Models
+*Assignments:*  TBA
 
-__Nov. 3, 2015__
+### Week 10: March 14-16
 
-Web frameworks 3: Views and templates.
+**Tuesday:**  
 
-__Nov. 5, 2015__
+*In class:*  SPRINT 2: Finishing touches 
 
-Web frameworks 4: Baking to static HTML for easy publication.
+*Assignments:*  Finish your sites, prepare to present them. 
 
-__Nov. 10, 2015__
+**Thursday:**
 
-Introducing the final project: Data apps for student media
+*In class:*  SPRINT 2 Presentations
 
-Homework:
+*Assignments:*  
 
-Start sketching ideas, thoughts, features, etc. 
+### Week 11: March 21-23
 
-__Nov. 12, 2015__
+**Spring Break**
 
-How to scrum, what will be expected of you from now on. 
+### Week 12: March 28-30
 
-__Nov. 17, 2015__
+**Tuesday:**  
 
-Project scrum: Progress, assignments  
+*In class:*  SPRINT 3: Voice assistants
+   
+*Assignments:*  
 
-__Nov. 19, 2015__
+* Install party
 
-Project work
+**Thursday:**
 
-__Nov. 24, 2015__
+*In class:* SPRINT 3: Voice assistants
 
-Project scrum: Progress, assignments  
+*Assignments:*  
 
-__Nov. 26, 2015__
+### Week 13: April 4-6
 
-Thanksgiving
+**Tuesday:**  
 
-__Dec. 1, 2015__
+*In class:* SPRINT 3: Voice assistants
+   
+*Assignments:*  
 
-Project scrum: Progress, assignments  
+**Thursday:**
 
-__Dec. 3, 2015__
+*In class:*    SPRINT 3: Voice assistants
 
-Project work
+*Assignments:*  
 
-__Dec. 8, 2015__
+### Week 14: April 11-13
 
-Project scrum: Progress, assignments  
+**Tuesday:**  
 
-__Dec. 10, 2015__
+*In class:*    SPRINT 3: Voice assistants
 
-Project presentations
+*Assignments:*  
+
+**Thursday:**
+
+*In class:* SPRINT 3: Voice assistants
+
+*Assignments:*  
+
+### Week 15: April 18-20
+
+**Tuesday:**  
+
+*In class:* SPRINT 3: Voice assistants
+
+*Assignments:* 
+
+**Thursday:**
+
+*In class:*    SPRINT 3: Voice assistants
+
+*Assignments:*  
+
+### Week 16: April 25-27
+
+**Tuesday:**  
+
+*In class:*  SPRINT 3: Voice assistants  
+
+*Assignments:* 
+
+**Thursday:**
+
+*In class:*  SPRINT 3 presentations
+
+*Assignments:*  
+
+
+
+
+
 
