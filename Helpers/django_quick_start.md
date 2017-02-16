@@ -2,7 +2,7 @@
 
 ###Mac users
 
-Use Anaconda. 
+If you haven't already, install [Anaconda for Mac](https://www.continuum.io/downloads). After installation, open a Terminal and type these commands.
 
 ```
 conda create --name django python=3    
@@ -14,8 +14,12 @@ pip install Django==1.10.5
 
 ###PC users
 
+If you haven't already, install [Anaconda for Windows](https://www.continuum.io/downloads). After installation, open a Command Prompt and type these commands.
+
 ```
-sudo pip install Django==1.10.5
+conda create --name django python=3    
+activate django  
+conda install django
 
 ```
 
@@ -27,7 +31,7 @@ Using a dataset of parking tickets, we're going to create an app that will tell 
 
 
 ```
-django-admin.py startproject demo1
+django-admin startproject demo1
 
 cd demo1
 
