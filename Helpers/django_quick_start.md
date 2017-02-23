@@ -295,7 +295,7 @@ See how we added an a tag around name, and populated the href for that with `{{ 
 Add this to demo1/urls.py between your homepage and the admin.
 
 ```
-    url(r'^locations/(?P<location_slug>\w+)', views.location, name='location'),
+        url(r'^locations/(?P<location_slug>[-\w]+)', views.location, name='location'),
 ```
 
 And now add this to tickets/views.py:
