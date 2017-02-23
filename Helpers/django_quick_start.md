@@ -249,3 +249,85 @@ If you were to type `cd ../../..` and then rerun your server with `python manage
 </body>
 </html>
 ```
+
+##Going further
+
+So we've made a page now that shows some things, but our site doesn't allow us to explore very much. What if we wanted to be able to click on a location and be shown what the most frequent tickets are at that location? Or click on a violation and find out what locations those tickets most frequently get written? The steps for this are pretty simple, though there are several of them. But refer back to our workflow: Define a url, create a view, create a template. 
+
+In this case, we're going to add one thing: We're going to add to our models. We can add the url to each object in our models by adding a method to them to do so. It's called `get_absolute_url` and it's pretty simple: 
+
+```
+class Location(models.Model):
+    name = models.CharField(max_length=255)
+    name_slug = models.SlugField()
+    def __str__(self):
+        return self.name
+    def get_absolute_url(self):
+        return "/locations/%s/" % self.name_slug
+
+class Violation(models.Model):
+    name = models.CharField(max_length=255)
+    name_slug = models.SlugField()
+    def __str__(self):
+        return self.name
+    def get_absolute_url(self):
+        return "/violations/%s/" % self.name_slug
+```
+
+All we have added to our models is a function called `get_absolute_url` that returns a url pattern. In this case, it does a simple python text substitution, swapping out the %s for self.name_slug, meaning the name_slug field from this class. We created the name_slug field to be in a url, so here it is. To see this in action, we can change our template. 
+
+```
+<h3>Top locations for tickets</h3>
+<ul>
+{% for object in top_location %}
+<li><a href="{{ object.get_absolute_url }}">{{ object.name }}</a> | {{ object.num_tickets }}</li>
+{% endfor %}</ul>
+
+<h3>Top violations on tickets</h3>
+<ul>
+{% for object in top_violation %}
+<li><a href="{{ object.get_absolute_url }}">{{ object.name }}</a> | {{ object.num_tickets }}</li>
+{% endfor %}</ul>
+```
+
+See how we added an a tag around name, and populated the href for that with `{{ object.get_absolute_url }}`. That's all we have to do to add a link. If you don't have a server runnning, start it and go to your page. You'll see links galore. But if you click on one, you'll get ... a 404 error. Page not found. Why? Because we haven't made the url yet. So lets do that. 
+
+Add this to demo1/urls.py between your homepage and the admin.
+
+```
+    url(r'^locations/(?P<location_slug>\w+)', views.location, name='location'),
+```
+
+And now add this to tickets/views.py:
+
+```
+def location(request, location_slug):
+    location = Location.objects.get(name_slug=location_slug)
+    top_violation = Violation.objects.filter(ticket__location__name_slug=location_slug).annotate(num_tickets=Count('ticket')).order_by('-num_tickets')[:10]
+    context = {'location': location, 'top_violation': top_violation}
+    return render(request, 'tickets/location.html', context)
+```
+
+And add this template to tickets/templates/tickets/location.html
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Parking tickets at {{ location }}</title>
+</head>
+<body>
+<h1>Parking tickets are bad at {{ location }}</h1>
+
+<h3>Top tickets</h3>
+<ul>
+{% for object in top_violation %}
+<li>{{ object.name }} | {{ object.num_tickets }}</li>
+{% endfor %}</ul>
+
+</body>
+</html>
+```
+
+##Stretch goal: How do we do this for violations?
