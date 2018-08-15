@@ -1,4 +1,4 @@
-#JOUR408 News Applications#
+# JOUR408 News Applications
 __Spring 2017__  
 __T/Th 11:00 a.m. - 12:15 p.m.__  
 __ANDN 114__  
@@ -56,10 +56,15 @@ I use standard and basic grading scale.
 |F|59 or below|
 
 However, your final letter grade will be weighted:
-|Assignment|Weight||----------|------|
+
+|Assignment|Weight|
+|----------|------|
 |Reading quizzes/minor assignments|10%|
-|News trust/tarbell assignment|30%||Data-driven automated news/Django assignment|30%||Voice assistants for local news assignment|30%|
-__Notes on participation:__ 
+|News trust/tarbell assignment|30%|
+|Data-driven automated news/Django assignment|30%|
+|Voice assistants for local news assignment|30%|
+
+__Notes on participation:__ 
 
 I do not take attendance, but it's a small enough class that I'll notice when you're gone. Your attendance and participation will factor into your grade thusly: When the end of the semester comes around, I made decisions on rounding and reconsiderations based on participation and attendance. If you show up, participate in class and are a positive contribution to the class overall, I round, sometimes generously. If you skip classes, mess around on your laptop, sit in silence when partipation is needed, then your grade is your grade. Either way, you earned it.
 
@@ -70,8 +75,17 @@ Yes, we all get sick. Yes, things happen. I don’t want you to be sick in my cl
 
 This said: this class builds each class onto the next one. Miss a class, especially a code class, and you are behind. You’re going to be covering a lot of new material in this class. Miss one at your own peril.
 
-__Policies__Here's the short version.You cheat, you fail, no exceptions. If I’m doing something that’s keeping you from learning, tell me. Tell the Dean. Tell someone, because that’s not cool. I won’t tolerate it from myself and you shouldn’t either.
-Now the longer versions.__ACEJMC Competencies__
+__Policies__
+
+Here's the short version.
+
+You cheat, you fail, no exceptions. 
+
+If I’m doing something that’s keeping you from learning, tell me. Tell the Dean. Tell someone, because that’s not cool. I won’t tolerate it from myself and you shouldn’t either.
+
+Now the longer versions.
+
+__ACEJMC Competencies__
 
 After this class, you should be able to:
 
